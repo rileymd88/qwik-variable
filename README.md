@@ -1,5 +1,5 @@
 # Qwik Language
-A Qlik Sense extension which sets a variable based on the user language: https://github.com/rileymd88/qwik-language/releases 
+A Qlik Sense extension which sets a variable based on the user language. Download the extension from here: https://github.com/rileymd88/qwik-language/releases 
 
 
 # Developing the extension
