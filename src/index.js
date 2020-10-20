@@ -14,6 +14,12 @@ export default {
     const app = qlik.currApp(this);
     const scope = this.$scope;
     this.$scope.isInEdit = this.options.interactionState == 2;
+    if (scope.isInEdit) {
+      scope.containerStyle = { "display": "block" };
+    }
+    else {
+      scope.containerStyle = { "display": "none" };
+    }
     if(typeof layout.props.variable !== 'undefined') {
       const browserLanguage = navigator.language;
       app.variable.setStringValue(layout.props.variable, browserLanguage);

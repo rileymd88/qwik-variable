@@ -1,8 +1,6 @@
 /* eslint-disable max-len */
 /* eslint-disable no-console */
 var qlik = window.require('qlik');
-import $ from 'jquery';
-import helper from './helper.js';
 
 
 export default ['$scope', '$element', async function ($scope, $element) {
