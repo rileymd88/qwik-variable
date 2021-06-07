@@ -1,6 +1,19 @@
 # Qwik variable
 A Qlik Sense extension which makes it easy to set a variable with additional information from the browser and Qlik Sense. Download the extension from here: https://github.com/rileymd88/qwik-language/releases 
 
+# Variables which can be set
+ - App id
+ - App name
+ - Browser device
+ - Browser language
+ - Browser url
+ - Browser width
+ - Browser height
+ - Current location
+ - Sheet id
+ - Sheet name
+
+ If you would like to add more, please open an issue here on Github.
 
 # Developing the extension
 If you want to do code changes to the extension follow these simple steps to get going.
