@@ -1,4 +1,3 @@
-/* eslint-disable max-len */
 /* eslint-disable no-console */
 var qlik = window.require('qlik');
 
@@ -13,7 +12,7 @@ export default ['$scope', '$element', async function ($scope, $element) {
   let clone = { ...sheetProps };
   clone.cells[index] = {
     "name": $scope.layoutId,
-    "type": "qwik-language",
+    "type": "qwik-variable",
     "col": -1,
     "row": -1,
     "colspan": 0,
@@ -25,5 +24,5 @@ export default ['$scope', '$element', async function ($scope, $element) {
       "height": 0
     }
   };
-  await sheetObj.setProperties(clone);
+  sheetObj.setProperties(clone);
 }];

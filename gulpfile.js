@@ -16,12 +16,12 @@ function copyExtFiles() {
 
 gulp.task('qext', function () {
 	var qext = {
-		name: 'Qwik Language',
+		name: 'Qwik variable',
 		type: 'visualization',
 		description: pkg.description + '\nVersion: ' + VERSION,
 		version: VERSION,
 		icon: 'grid',
-		preview: 'qwik-language.png',
+		preview: 'qwik-variable.png',
 		keywords: 'qlik-sense, visualization',
 		author: pkg.author,
 		homepage: pkg.homepage,

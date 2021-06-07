@@ -14,13 +14,13 @@
   visibility: visible;
 }
 
-.qv-object-qwik-language .qv-inner-object {
+.qv-object-qwik-variable .qv-inner-object {
 
   overflow: visible;
   visibility: hidden;
 }
 
-.qv-object-qwik-language {
+.qv-object-qwik-variable {
   position: relative;
   z-index: 2000;
 }

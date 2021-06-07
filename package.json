@@ -1,9 +1,9 @@
 {
-  "name": "qwik-language",
+  "name": "qwik-variable",
   "version": "0.0.1",
-  "description": "Set a variable based on the browser language",
-  "homepage": "https://github.com/rileymd88/qwik-language",
-  "repository": "https://github.com/rileymd88/qwik-language",
+  "description": "set a variable with additional information from the browser and Qlik Sense",
+  "homepage": "https://github.com/rileymd88/qwik-variable",
+  "repository": "https://github.com/rileymd88/qwik-variable",
   "author": "Riley MacDonald",
   "license": "MIT",
   "qlikshare": "C://qlikshare",
